@@ -2,7 +2,11 @@
     background-color: #ed768b;
     color:#080002;
     display: flex;
+    justify-content: space-around;
 }
 .cabeçalho-imagem{
 width: 20%;
 }
+
+.cabecalho-lista-item
+display: inline-block;
