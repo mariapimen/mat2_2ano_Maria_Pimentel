@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+.cabeçalho {
     background-color:#ed768b;
     color: black;
     display: flex;
@@ -13,11 +13,32 @@ header {
 }
 
 .cabeçalho-imagem{
-    width: 20%;
+    width: 15%;
 }
 
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#ff778f,#ff778f);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.eescola-div-conteudo{ 
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
